@@ -167,10 +167,10 @@ class NostalgiaForInfinityX5(IStrategy):
   short_rapid_mode_name = "short_rapid"
   short_top_coins_mode_name = "short_tc"
 
-  is_futures_mode = False
-  futures_mode_leverage = 3.0
-  futures_mode_leverage_rebuy_mode = 3.0
-  futures_mode_leverage_grind_mode = 3.0
+  is_futures_mode = True
+  futures_mode_leverage = 15.0
+  futures_mode_leverage_rebuy_mode = 5.0
+  futures_mode_leverage_grind_mode = 5.0
 
   # Based on the the first entry (regardless of rebuys)
   stop_threshold_spot = 0.10
